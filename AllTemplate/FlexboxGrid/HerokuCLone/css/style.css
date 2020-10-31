@@ -461,10 +461,10 @@ section.main > .grid .card:nth-child(6) {
 section.main > .grid {
   grid-gap: 25px;
   grid-template-areas:
-    "main1 main1 main1"
-    "main2 main2 main3"
-    "main4 main5 main6";
-  grid-template-columns: unset;
+          "main1 main1 main1"
+          "main2 main2 main3"
+          "main4 main5 main6";
+  /* grid-template-columns: unset; */
   /* grid-template-rows: 1fr 1fr 1fr; */
   align-items: stretch;
 }
@@ -568,12 +568,12 @@ h2.menu-title {
   }
   section.main > .grid {
     grid-template-areas:
-      "main1"
-      "main2"
-      "main3"
-      "main4"
-      "main5"
-      "main6";
+            "main1"
+            "main2"
+            "main3"
+            "main4"
+            "main5"
+            "main6";
   }
   .left-feature-page {
     text-align: center;
