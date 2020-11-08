@@ -1,0 +1,20 @@
+@media (max-width:720px)
+{
+    section.our-product div.container .product-intro
+    {
+        flex-direction: column-reverse;
+         align-items: center;
+         &-content
+         {
+            width: 100%;
+            text-align: center;
+            top: -50px;
+         }
+         img
+         {
+            position: relative;
+            width: 100%;
+            top: -100px;
+         }
+    }
+}

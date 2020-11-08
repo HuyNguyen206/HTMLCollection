@@ -1,0 +1,25 @@
+header
+{
+    background: linear-gradient(to right, rgba(21, 19, 19, 0.767), rgba(21, 19, 19, 0.767)), url(../img/shoe-3.png) no-repeat center/auto;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    min-height: 80vh;
+    background-blend-mode: multiply;
+    h1{
+        font-size: 65px;
+        max-width: 800px;
+        line-height: 0.9;
+    }
+    p{
+        margin: 35px 0;
+    }
+    .container
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+    }
+}
+
